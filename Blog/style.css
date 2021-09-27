@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+h2{
+    font: bold 14px sans-serif;
+    text-align: left;
+}
+
+header,section,footer,aside,nav,article,hgroup{
+    /* border: 1px solid black; */
+    display: block;
+}
+
+body{
+    text-align: center;
+    background: gray;
+}
+
+.contenedor{
+    background: #fff;
+    width: 960px;
+    border: 1px solid black;
+    margin: 15px auto;
+}
+
+.cabecera{
+    background: #fffbb9;
+    border: 1px solid #999;
+    padding: 20px;
+}
+
+.cabecera h1{
+    text-align: center;
+}
+
+.menu{
+    background: #b2bec3;
+    text-align: left;
+    padding: 5px 15px;
+}
+
+.menu li{
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+}
+
+.sesion{
+    margin: 20px;
+    width: 600px;
+    float: left;
+}
+
+article{
+    background: #fffbcc;
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article time{
+    background: #e2e2e2;
+    display: block;
+    text-align: left;
+}
+
+article footer{
+    text-align: left;
+    margin-top: 20px;
+}
+
+article p{
+    text-align: justify;
+}
+
+.columna{
+    margin: 20px 0px;
+    width: 300px;
+    float: left;
+}
+
+.columna blockquote{
+    border: 1px solid black;
+    padding: 20px;
+    background: #fffbb9;
+    margin-bottom: 15px;
+}
+
+.piepagina{
+    clear: both;
+    padding: 15px;
+    background: gray;
+    color: white;
+}
+
